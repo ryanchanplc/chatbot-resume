@@ -10,7 +10,7 @@ config.autoAddCss = false
 const GlobalStyles = createGlobalStyle`
     ${dom.css()}
 `
-import { theme, steps } from './const'
+import { theme, steps } from '../const/const'
 
 const Home = ({ width, height }) => {
   let size = isNaN(height) ? 0 : height - 20 - 20
