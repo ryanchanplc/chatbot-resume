@@ -13,7 +13,7 @@ const GlobalStyles = createGlobalStyle`
 import { theme, steps } from '../const/const'
 
 const Home = ({ width, height }) => {
-  let size = isNaN(height) ? 0 : height - 20 - 20
+  let size = isNaN(height) ? 0 : height - 10 - 10
 
   return (
     <>
@@ -38,7 +38,7 @@ const Home = ({ width, height }) => {
               'https://avatars1.githubusercontent.com/u/22313101?s=400&u=e760d84f6591662a3feeb89c277e846ffaa65cf8&v=4'
             }
             hideUserAvatar={true}
-            contentStyle={{ height: size, padding: '25px' }}
+            contentStyle={{ height: size}}
             bubbleOptionStyle={{
               fontFamily: 'Helvetica Neue',
               background: '#424969',

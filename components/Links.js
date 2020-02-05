@@ -8,17 +8,17 @@ const Links = () => (
     <div className="links">
       <FontAwesomeIcon icon={faGithubSquare} size="2x" />{' '}
       <a href="http://www.github.com/ryanchanplc" target="_blank">
-        www.github.com/ryanchanplc
+      ryanchanplc
       </a>
       <br />
       <FontAwesomeIcon icon={faMedium} size="2x" />{' '}
       <a href="http://www.medium.com/@ryanchanplc" target="_blank">
-        www.medium.com/@ryanchanplc
+       ryanchanplc
       </a>
       <br />
       <FontAwesomeIcon icon={faLinkedin} size="2x" />{' '}
       <a href="https://hk.linkedin.com/in/ryanchanplc" target="_blank">
-        hk.linkedin.com/in/ryanchanplc
+      ryanchanplc
       </a>
       <style jsx global>
         {`
