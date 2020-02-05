@@ -19,8 +19,8 @@ const Home = ({ width, height }) => {
     <>
       <GlobalStyles />
       <Head>
-        <title>Home</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>ryanchanplc</title>
+       
       </Head>
       <div className="container">
         <ThemeProvider theme={theme}>
