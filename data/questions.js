@@ -1,4 +1,4 @@
-export var questions = [
+export const questions = [
     { 
         value: 1, 
         label: 'What are you good at?', 

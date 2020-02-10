@@ -1,6 +1,10 @@
 import React from 'react'
 import Head from 'next/head'
 import ChatBot from 'react-simple-chatbot'
+
+import {theme} from '../data/const'
+import {steps} from '../data/steps'
+
 import { ThemeProvider } from 'styled-components'
 import { withResizeDetector } from 'react-resize-detector'
 import { createGlobalStyle } from 'styled-components'
@@ -10,9 +14,9 @@ config.autoAddCss = false
 const GlobalStyles = createGlobalStyle`
     ${dom.css()}
 `
-import { theme, steps } from '../const/const'
 
-const Home = ({ width, height }) => {
+
+const Home = ({ height }) => {
   let size = isNaN(height) ? 0 : height - 10 - 10
 
   return (
@@ -49,6 +53,7 @@ const Home = ({ width, height }) => {
           />
         </ThemeProvider>
       </div>
+
       <style jsx global>{` 
         html, 
         body {
