@@ -24,7 +24,7 @@ const Home = ({ height }) => {
       <GlobalStyles />
       <Head>
         <title>ryanchanplc</title>
-       
+        <link rel="icon" href="data:;base64,="/>
       </Head>
       <div className="container">
         <ThemeProvider theme={theme}>
