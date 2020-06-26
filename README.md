@@ -1,4 +1,8 @@
 A chatbot style resume page developed using [react-simple-chatbot](https://github.com/LucasBassetti/react-simple-chatbot) and [nextjs](https://github.com/zeit/next.js/)
+## Link
+
+You may find the application on [ryanchanplc-resume](http://ryanchanplc-resume.herokuapp.com/).
+Please wait a second for the heroku instance to startup.
 
 ## Instruction
 
